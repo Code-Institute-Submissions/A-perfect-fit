@@ -191,4 +191,35 @@ body {
     margin-top: 0;
 }
 
+/*------------------------------------Products------*/
+
+.products .page-header {
+    margin-bottom: 25px;
+}
+
+/*------------------------------------Features------*/
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.content-container-contact-us {
+    margin-top:150px;
+}
+
+.location-link {
+    color: white;
+}
+
+.location-link:hover {
+    color: pink;
+}
+
 
