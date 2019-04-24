@@ -138,4 +138,27 @@ body {
     width: 35px;
 }
 
+/*------------------------------------bottoms------*/
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 180px;
+}
+
+.btn--red {
+    color: white;
+    background-color: #37840b;
+    border-color: #37840b;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #205104;
+    border-color: #205104;
+    color: white;
+}
+
 
