@@ -1,3 +1,64 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+/*------------------------------------Containers------*/
+
+.container-wrapper {}
+
+.container-wrapper--aboutus {
+    background-color: #e82285;
+    color: white;
+
+}
+
+.container-wrapper--aboutusinfo {
+    background-color: #ef9ec6;
+    color: white;
+
+}
+
+.container-wrapper--contactus {
+    background-color: #0f0f0e;
+    color: white;
+    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative
+}
+
+.alert-container {
+    text-align: center;
+}
+
+.callout-container {
+    height: 100vh;
+
+    background: url('../images/home_blackground.png') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
