@@ -222,4 +222,39 @@ body {
     color: pink;
 }
 
+/*---------------------------------------------------------Media Queries------*/
+
+@media(min-width: 992px) {
+    .border-home-side-content {
+        min-height: 382px;
+    }
+
+
+    .header-image-contain {
+
+        visibility: visible;
+
+        background: url('../images/home_blackground.png');
+
+        background-position: center;
+
+        background-repeat: no-repeat;
+
+        background-size: contain;
+
+        min-height: 360px;
+
+        transition: all 1s ease-in-out;
+
+        -moz-transition: all 1s ease-in-out;
+
+        -o-transition: all 1s ease-in-out;
+
+        -webkit-transition: all 1s ease-in-out;
+
+    }
+
+}
+
+
 
